@@ -561,6 +561,8 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
+  background-image: url("../img/about-img.jpg");
+  background-position: center;
 }
 
 .about h3 {
@@ -1484,7 +1486,7 @@ section {
   background-position: bottom center;
   background-size: cover;
   position: relative;
-  min-height: 98vh;
+  min-height: 100vh;
   padding: 160px 0 60px 0;
 }
 
