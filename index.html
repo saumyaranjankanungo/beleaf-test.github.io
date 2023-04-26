@@ -21,7 +21,7 @@
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper-bundle/swiper-bundle.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
           <li><a href="#hero">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Product</a></li>
-          <li><a href="#events">Events</a></li>
+          <!-- <li><a href="#events">Events</a></li> -->
           <!-- <li><a href="#chefs">Chefs</a></li> -->
           <li><a href="#gallery">Gallery</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -84,7 +84,7 @@
           <h1 data-aos="fade-up">Discover the World of<br>Microgreens</h1>
           <p data-aos="fade-up" data-aos-delay="100">Improve your eating habits and add essential nutrients to your meals by trying our pack of Microgreens today.</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="https://web.whatsapp.com/send?phone=+918310178545&text=" class="btn-book-a-table">Order Now</a>
+            <a target="_blank" href="https://wa.me/+918310178545" class="btn-book-a-table">Order Now</a>
             <!-- <a href="assets/watch.html" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
           </div>
         </div>
@@ -109,7 +109,7 @@
         <div class="row gy-4">
           <div class="col-lg-7 position-relative about-img" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
-              <a href="https://web.whatsapp.com/send?phone=+918310178545&text=" class="btn-book-a-table">Order Now</a>
+              <!-- <a href="https://web.whatsapp.com/send?phone=+918310178545&text=" class="btn-book-a-table">Order Now</a> -->
               <!-- <h4>Order Now</h4>
               <p><a href="tel:+918310178545">+91 83101 78545</a></p> -->
             </div>
@@ -128,9 +128,10 @@
                 Elevate your culinary experience and savor our Microgreens in a gourmet fashion.
               </p>
 
-              <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="assets/watch.html?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+              <div class="position-relative mt-4 youtube-vid">
+                <iframe width="560" height="400" src="https://www.youtube.com/embed/Ep2Eyez78rM?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+                <a href="assets/watch.html?v=LXb3EKWsInQ" class="glightbox play-btn"></a> -->
               </div>
             </div>
           </div>
@@ -162,7 +163,7 @@
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-clipboard-data"></i>
+                  <i class="bi bi-patch-check"></i>
                   <h4>Quality</h4>
                   <p>We take pride in supplying only the highest quality Microgreens that are grown and harvested using the best practices and delivered fresh to ensure maximum nutrition and flavour.</p>
                 </div>
@@ -170,7 +171,7 @@
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                  <i class="bi bi-gem"></i>
+                  <i class="bi bi-heart-pulse"></i>
                   <h4>Healthy eating</h4>
                   <p>We are dedicated in promoting healthy eating by providing nutrient-dense Microgreens that are packed with essential vitamins and minerals, and contribute to a balanced and nutritious diet.</p>
                 </div>
@@ -280,308 +281,103 @@
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <span href="#" class=""><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Brocolli</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  A deliciously mild, fresh broccoli flavour
                 </p>
-                <p class="price">
-                  $5.95
-                </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> High in <b>Vitamin K, Vitamin C</b>, Vitamin B2, B6, B9, and <b>Vitamin E</b>. A great source of <b>Potassium, Manganese, and Iron</b>.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Helps Prevent and <b>Treat Cancer, Blood Sugar Regulation</b> in Type 2 Diabetics, Kidney Function, Regulates Blood Pressure, <b>Detoxify Blood</b>, Slows Down Osteoporosis, Arthritis, Anti-Inflammatory, Reduces PMS Symptoms, Prevents Ulcers, Premature Aging, Aids Digestion, <b>Promotes Heart Health</b>, Improves <b>Brain Performance</b>.</p>
+                </div>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <span href="#" class=""><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Radish Pink</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  Nice crisp spicy flavour
                 </p>
-                <p class="price">
-                  $14.95
-                </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> They are known for their super high level of <b>Vitamin E</b>. Vitamin E is a strong antioxidant which helps remove free radicals that can damage cell structure. They are also high in Vitamin A, Vitamin B6, and Vitamin C. You'll also find the following minerals in these Microgreens: <b>Folate, Potassium, Magnesium, Calcium, and Iron</b>.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Helps <b>Prevent Cancer</b>, Removes Body Toxins, Blood Sugar Regulation (Great for Diabetics), Regulates Blood Pressure, Promote Cardiovascular Health, Anti-bacterial and Anti-viral, <b>Clears facial acne</b>, Strong Antioxidant Factors, Aids <b>Digestion</b>, Supports Kidney Function, Nasal Decongestant, Helps Breakdown Fats, <b>Helps Weight Loss</b>.</p>
+                </div>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <span href="#" class=""><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Sunflower</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  Strong nutty flavour
                 </p>
-                <p class="price">
-                  $8.95
-                </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> Contain the <b>8 essential amino acids</b>. They're also high in all of the important <b>B Vitamins</b> which include, Vitamin B1, B2, B3, B5, B6, B12, and B15! These superfoods contain Vitamin A, Vitamin C, <b>Vitamin D</b>, Vitamin F, Vitamin H, Vitamin K, Choline, Folic Acid, Inositol, PABA, <b>Calcium</b>, Cobalt, <b>Iodine</b>, Iron Magnesium, Manganese, Phosphorous, Potassium, Selenium, Sodium, Sulphur, and <b>Zinc</b>.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Helps <b>Depression</b>, Boosts <b>Fertility</b>, High in Folic Acid (Great for carrying Women), Helps Blood Circulation, <b>Clears Lungs</b> and Helps Fight Against Respiratory Infections, Reduces Risk of Cancer, Risk of Heart Disease, Supports <b>Healthy Thyroid</b> Function, Helps Combat Bone Loss and Osteoporosis, Improves <b>Skin Health</b>.</p>
+                </div>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <span href="#" class=""><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Beetroot</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  Sweet earthy flavour
                 </p>
-                <p class="price">
-                  $12.95
-                </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> Contains Vitamins A, B, C, E, and K, the minerals calcium, iron, magnesium, manganese, potassium, zinc, as well as antioxidants.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Beetroot Microgreens have a lot of health benefits! They promote <b>bone strength</b>, healthy skin and <b>vision</b>, cardiovascular health, <b>immune system support</b>, anemia remedy, and improve digestion.  Foodies and chefs love beet micros for their contrasting colors, distinctive <b>earthy flavor</b>, and crunchy yet <b>juicy</b> texture. Similar to beetroots, these microgreens may "bleed" some red color onto your food.</p>
+                </div>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <span href="#" class=""><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Fenugreek (Methi)</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  Milder and sweeter flavour
                 </p>
-                <p class="price">
-                  $12.95
-                </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> Eating fenugreek Microgreens is a great way to get an <b>abundance of nutrition</b> and flavour into your diet. Not only are fenugreek Microgreens packed with <b>Vitamin C</b> And also contain: Vitamin A, B3 (niacin), B9 (folic acid), E, and K; iron; magnesium; potassium, zinc; they also contain <b>proteins & fiber</b>.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Fenugreek Microgreens are especially good for women because they have been used traditionally in India to <b>aid digestion</b> and may even help <b>relieve PMS</b> or menopause symptoms by regulating menstruation cycles. These greens are also very helpful in combating <b>diabetes</b> as it helps control blood sugar levels, while its <b>high fibre</b> content helps <b>lower cholesterol</b> and promote cardiovascular health.</p>
+                </div>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <span href="#" class=""><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Spinach</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                  Slightly sweet
                 </p>
-                <p class="price">
-                  $9.95
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> Spinach Microgreens get replenished with nutrients like <b>Vitamin A, C</b>, Vitamin K1, <b>Iron</b>, Folic Acid, and <b>Calcium</b>. The Microgreens are four to forty times higher in nutrients than the mature seed.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Consuming spinach Microgreens can improve eye <b>health</b>, lessen oxidative <b>stress</b>, reduce cancer risk, and decrease <b>blood pressure</b>.</p>
+                </div>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <span href="#" class=""><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Wheatgrass</h4>
+                <p class="ingredients">
+                  Mild sweet, bitter, grassy
                 </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> Wheatgrass is <b>low in calories</b> but high in nutrients, including antioxidants such as glutathione, <b>vitamin C</b>, and <b>vitamin E</b>. Antioxidants fight free radicals in the body, reducing oxidative stress and protecting against health conditions like <b>arthritis</b>, cancer, and neurodegenerative diseases.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Wheatgrass can help to prevent cancer, fights <b>infections</b>, help lower <b>cholesterol levels</b>, which can then help to lower your risk of heart disease, Aids in Healthy <b>Digestion</b>, regulates blood sugar level.</p>
+                </div>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <span href="#" class=""><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></span>
+                <h4>Radish Sango</h4>
+                <p class="ingredients">
+                  Nice crisp spicy flavour
+                </p>
+                <div class="product-tooltip">
+                  <p><b><i><u>Nutritional Content:</u></i></b> They are known for their super high level of <b>Vitamin E</b>. Vitamin E is a strong antioxidant which helps remove free radicals that can damage cell structure. They are also high in <b>Vitamin A</b>, Vitamin B6, and <b>Vitamin C</b>. You 'll also find the following minerals in these microgreens: <b>Folate, Potassium, Magnesium, Calcium, and Iron</b>.</p>
+                  <p><b><i><u>Health Benefits:</u></i></b> Helps <b>Prevent Cancer</b>, Removes Body Toxins, Blood Sugar Regulation (Great for Diabetics), Regulates Blood Pressure, Promote Cardiovascular Health, Anti-bacterial and Anti-viral, <b>Clears facial acne</b>, Strong Antioxidant Factors, <b>Aids Digestion</b>, Supports Kidney Function, Nasal Decongestant, Helps Breakdown Fats, Helps <b>Weight Loss</b>.</p>
+                </div>
               </div><!-- Menu Item -->
 
             </div>
           </div><!-- End Starter Menu Content -->
-
-          <div class="tab-pane fade" id="menu-breakfast">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Breakfast</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Breakfast Menu Content -->
-
-          <div class="tab-pane fade" id="menu-lunch">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Lunch</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Lunch Menu Content -->
-
-          <div class="tab-pane fade" id="menu-dinner">
-
-            <div class="tab-header text-center">
-              <p>Menu</p>
-              <h3>Dinner</h3>
-            </div>
-
-            <div class="row gy-5">
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $5.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $14.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $8.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $12.95
-                </p>
-              </div><!-- Menu Item -->
-
-              <div class="col-lg-4 menu-item">
-                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img src="assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
-                <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
-                </p>
-                <p class="price">
-                  $9.95
-                </p>
-              </div><!-- Menu Item -->
-
-            </div>
-          </div><!-- End Dinner Menu Content -->
-
         </div>
 
       </div>
@@ -606,18 +402,66 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        These greens are literally my favourite addition to my food items. It elevates their taste and adds so many benefits to your regular food.
+                        Microgreens from Beleaf is nothing less than a bowl full of goodness.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Shivangi</h3>
+                      <h4>Skin Care Influencer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/Shivangi.png" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Microgreens never tasted so fresh and yum, already placing orders for coming weeks.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Vishnupriya</h3>
+                      <h4>Fashion Influencer</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/vishnupriya.png" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Microgreens from Beleaf organics are literally my favourite addition to the dish. Trust me it elevates their taste and adds so many benefits to them.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
                       <h3>Ananya Sen</h3>
-                      <h4>Food Blogger</h4>
+                      <h4>Food Blogger/ Influencer</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/common.png" class="img-fluid testimonial-img" alt="">
+                    <img src="assets/img/testimonials/ananya.png" class="img-fluid testimonial-img" alt="">
                   </div>
                 </div>
               </div>
@@ -630,42 +474,18 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        Thank you for sending these fresh greens and making my salad super delicious. Can’t wait to try more recipes using them!.
+                        It was lovely to get hands on this sumptuous super-food by Beleaf, not just adding taste but health as well.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Poorvi Kukreja</h3>
-                      <h4>IT Employee</h4>
+                      <h3>Kanhaiyya</h3>
+                      <h4>MBA Finance, SJIM</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/common.png" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        Now healthy and tasty will go hand in hand.
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Kanhaiya Jee</h3>
-                      <h4>SJIM college, MBA Finance</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/common.png" class="img-fluid testimonial-img" alt="">
+                    <img src="assets/img/testimonials/kanhaiyya.png" class="img-fluid testimonial-img" alt="">
                   </div>
                 </div>
               </div>
@@ -704,7 +524,7 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
+    <!-- <section id="events" class="events">
       <div class="container-fluid" data-aos="fade-up">
 
         <div class="section-header">
@@ -721,7 +541,7 @@
               <p class="description">
                 Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
               </p>
-            </div><!-- End Event item -->
+            </div>
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-2.jpg)">
               <h3>Private Parties</h3>
@@ -729,7 +549,7 @@
               <p class="description">
                 In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
               </p>
-            </div><!-- End Event item -->
+            </div>
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/events-3.jpg)">
               <h3>Birthday Parties</h3>
@@ -737,14 +557,14 @@
               <p class="description">
                 Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
               </p>
-            </div><!-- End Event item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Events Section -->
+    </section> -->
 
     <!-- ======= Chefs Section ======= -->
     <!-- <section id="chefs" class="chefs section-bg">
@@ -820,7 +640,7 @@
     </section> -->
 
     <!-- ======= Book A Table Section ======= -->
-    <section id="book-a-table" class="book-a-table">
+    <!-- <section id="book-a-table" class="book-a-table">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -871,12 +691,12 @@
               </div>
               <div class="text-center"><button type="submit">Book a Table</button></div>
             </form>
-          </div><!-- End Reservation Form -->
+          </div>
 
         </div>
 
       </div>
-    </section><!-- End Book A Table Section -->
+    </section> -->
 
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery section-bg">
@@ -889,14 +709,16 @@
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-1.jpg"><img src="assets/img/gallery/img-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-2.JPG"><img src="assets/img/gallery/img-2.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-3.JPG"><img src="assets/img/gallery/img-3.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-4.JPG"><img src="assets/img/gallery/img-4.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-5.JPG"><img src="assets/img/gallery/img-5.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-6.JPG"><img src="assets/img/gallery/img-6.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-7.JPG"><img src="assets/img/gallery/img-7.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-8.JPG"><img src="assets/img/gallery/img-8.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-9.JPG"><img src="assets/img/gallery/img-9.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/img-10.JPG"><img src="assets/img/gallery/img-10.JPG" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -917,53 +739,9 @@
           <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2680688506116!2d77.69716411744385!3d12.954690799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae13d3d8988a15%3A0xea18d45521b5f7e2!2sBeLeaf%20Organics!5e0!3m2!1sen!2sin!4v1679206820079!5m2!1sen!2sin" frameborder="0" allowfullscreen=""></iframe>
         </div><!-- End Google Maps -->
 
-        <div class="row gy-4">
+        
 
-          <div class="col-md-6">
-            <div class="info-item  d-flex align-items-center">
-              <i class="icon bi bi-map flex-shrink-0"></i>
-              <div>
-                <h3>Our Address</h3>
-                <p>4th cross, Tulsi Theater Rd, Marathahalli, Karnataka 560037</p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-6">
-            <div class="info-item d-flex align-items-center">
-              <i class="icon bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p><a href="mailto:bleaf.org@gmail.com" class="__cf_email__" data-cfemail="f695999882979582b6938e979b869a93d895999b">bleaf.org@gmail.com</a></p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-6">
-            <div class="info-item  d-flex align-items-center">
-              <i class="icon bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p><a href="tel:+918310178545">+91 83101 78545</a></p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-md-6">
-            <div class="info-item  d-flex align-items-center">
-              <i class="icon bi bi-share flex-shrink-0"></i>
-              <div>
-                <h3>Opening Hours</h3>
-                <div><strong>Mon-Sat:</strong> 11AM - 23PM;
-                  <strong>Sunday:</strong> Closed
-                </div>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
-        </div>
-
-        <form action="" method="post" role="form" class="php-email-form p-3 p-md-4">
+        <form action="get-quote.php" method="post" role="form" class="php-email-form p-3 p-md-4">
           <div class="row">
             <div class="col-xl-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
@@ -996,22 +774,22 @@
 
     <div class="container">
       <div class="row gy-3">
-        <div class="col-lg-3 col-md-6 d-flex">
+        <div class="col-lg-4 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div>
             <h4>Address</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022 - US<br>
+              4th cross, Tulsi Theater Rd, <br>
+              Marathahalli, Karnataka 560037 <br>
             </p>
           </div>
 
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <div class="col-lg-4 col-md-6 footer-links d-flex">
           <i class="bi bi-telephone icon"></i>
           <div>
-            <h4>Reservations</h4>
+            <h4>Contact Us</h4>
             <p>
               <strong>Phone:</strong> <a href="tel:+918310178545">+91 83101 78545</a><br>
               <strong>Email:</strong> <a href="mailto:bleaf.org@gmail.com" class="__cf_email__" data-cfemail="660f08000926031e070b160a034805090b">bleaf.org@gmail.com</a><br>
@@ -1019,7 +797,7 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <!-- <div class="col-lg-3 col-md-6 footer-links d-flex">
           <i class="bi bi-clock icon"></i>
           <div>
             <h4>Opening Hours</h4>
@@ -1028,15 +806,15 @@
               Sunday: Closed
             </p>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-lg-3 col-md-6 footer-links">
+        <div class="col-lg-4 col-md-6 footer-links">
           <h4>Follow Us</h4>
           <div class="social-links d-flex">
-            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/beleaf.co.in/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/beleaforganics.in" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/+918310178545" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+            <a href="mailto:bleaf.org@gmail.com" class="gmail"><i class="bi bi-envelope-at"></i></a>
           </div>
         </div>
 
@@ -1060,7 +838,8 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <!-- <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <!-- <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+  <!-- <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script> -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/glightbox.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

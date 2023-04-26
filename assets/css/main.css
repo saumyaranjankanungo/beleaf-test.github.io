@@ -53,6 +53,34 @@ section {
   padding: 80px 0;
 }
 
+.menu-item {
+  position: relative;
+}
+
+.menu-item .product-tooltip {
+  display: none;
+}
+.menu-item:hover .product-tooltip {
+  display: inline;
+  position: absolute;
+  background: rgb(232, 232, 232);
+  padding: 25px 15px;
+  margin-top: -298px;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 2px 2px 15px 0px gray;
+}
+.menu-item .product-tooltip p {
+  font-size: 12px !important;
+  text-align: left !important;
+}
+
+@media(max-width: 990px){
+  .youtube-vid iframe {
+    width: 100%;
+  }
+}
+
 .section-bg {
   background-color: #eee;
 }
@@ -167,7 +195,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background: #059652;
   color: #fff;
 }
 
@@ -967,7 +995,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #f05656;
+  color: #32CD32;
   font-size: 26px;
   line-height: 0;
 }
