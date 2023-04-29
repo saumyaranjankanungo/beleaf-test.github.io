@@ -2,6 +2,17 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
+  // Button Href update
+  var main = document.getElementById("booktable");
+  var main2 = document.getElementById("booktable2");
+  if(window.innerWidth <= 900) {
+    main.href="https://wa.me/+918310178545";
+    main2.href="https://wa.me/+918310178545";
+  }else{
+    main.href="https://web.whatsapp.com/send?phone=+918310178545&text=";
+    main2.href="https://web.whatsapp.com/send?phone=+918310178545&text=";
+  }
+
   /**
    * Preloader
    */
