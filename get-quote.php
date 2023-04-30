@@ -1,7 +1,7 @@
 <?php
 
 // $my_email = "jammy.nift@gmail.com";
-$my_email = "saumyaranjankanungo17@gmail.com";
+$my_email = "saumyaranjankanungo17@gmail.com,beleaf.org@gmail.com";
 
 /*
 
@@ -110,7 +110,7 @@ $message = $message . PHP_EOL.PHP_EOL."-- ".PHP_EOL."";
 
 $message = stripslashes($message);
 
-$subject = "Response from Bleaf Website";
+$subject = "Response from BeLeaf Website";
 
 $headers = "From: " . $_REQUEST['email'];
 
@@ -121,7 +121,7 @@ mail($my_email,$subject,$message,$headers);
 <!DOCTYPE html>
 <html class="no-js">
 <head>
-    <title>Beleaf - Go green Go Microgreen! | Thank You</title>
+    <title>BeLeaf - Go green Go Microgreen! | Thank You</title>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
